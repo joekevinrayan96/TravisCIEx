@@ -1,0 +1,16 @@
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\PublishEx.exe
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\PublishEx.deps.json
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\PublishEx.runtimeconfig.json
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\PublishEx.runtimeconfig.dev.json
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\PublishEx.dll
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\ref\PublishEx.dll
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\PublishEx.pdb
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.csproj.AssemblyReference.cache
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.GeneratedMSBuildEditorConfig.editorconfig
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.AssemblyInfoInputs.cache
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.AssemblyInfo.cs
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.csproj.CoreCompileInputs.cache
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.dll
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\ref\PublishEx.dll
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.pdb
+D:\ExtraLearning\C#\Publish\PublishEx\obj\Release\net5.0\PublishEx.genruntimeconfig.cache

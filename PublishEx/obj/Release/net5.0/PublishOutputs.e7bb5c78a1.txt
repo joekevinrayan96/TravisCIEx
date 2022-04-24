@@ -1,0 +1,5 @@
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\publish\PublishEx.exe
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\publish\PublishEx.dll
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\publish\PublishEx.deps.json
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\publish\PublishEx.runtimeconfig.json
+D:\ExtraLearning\C#\Publish\PublishEx\bin\Release\net5.0\publish\PublishEx.pdb
