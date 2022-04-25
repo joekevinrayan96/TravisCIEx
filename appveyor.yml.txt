@@ -13,8 +13,6 @@ before_build:
   - cmd: dotnet --version
   # Display minimal restore text
   - cmd: dotnet restore ./PublishEx/PublishEx.csproj --verbosity m
-nuget:
-	disable_publish_on_pr: true
 build_script:
   # output will be in ./src/bin/debug/netcoreapp1.1/publish
 - cmd: dotnet publish ./PublishEx/PublishEx.csproj
