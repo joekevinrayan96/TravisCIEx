@@ -1,0 +1,14 @@
+language:
+    csharp 
+sudo: required 
+mono: none 
+dotnet: 3.0 
+
+os: - linux 
+
+before_script: 
+- dotnet restore ".\PublishEx\PublishEx.sln" 
+
+script: 
+- dotnet build ".\PublishEx\PublishEx.sln" -c Release 
+- dotnet test ".\PublishEx\PublishEx.sln" -c Release -v n
