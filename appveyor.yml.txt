@@ -1,6 +1,36 @@
-image: Visual Studio 2017
-environment:
-  DOTNET_CLI_TELEMETRY_OPTOUT: true
-  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+version: '1.0.{build}'
+image: Visual Studio 2019
+branches:
+  only:
+  - master
+init:
+  # Good practise, because Windows line endings are different from Unix/Linux ones
+  - cmd: git config --global core.autocrlf true
+install:
+  # Install repo specific stuff here
 before_build:
-  - cmd: dotnet restore
+  # Display .NET Core version
+  - cmd: dotnet --version
+  # Display minimal restore text
+  - cmd: dotnet restore ./PublishEx/PublishEx.csproj --verbosity m
+build_script:
+  # output will be in ./src/bin/debug/netcoreapp1.1/publish
+- cmd: dotnet publish ./PublishEx/PublishEx.csproj
+after_build:
+  # For once the build has completed
+#-----
+#artifacts:
+ #- path: '\src\bin\Debug\netcoreapp1.1\publish'
+  # name: WebSite
+  # type: WebDeployPackage
+#-----
+clone_depth: 1
+test_script:
+  # restore packages for our unit tests
+  - cmd: dotnet restore ./PublishEx.UnitTests/PublishEx.UnitTests.csproj --verbosity m
+  # run the unit tests (requires changing into the test directory)
+  - cmd: cd PublishEx.UnitTests
+  - cmd: dotnet nunit
+on_finish :
+  # any cleanup in here
+deploy: off
