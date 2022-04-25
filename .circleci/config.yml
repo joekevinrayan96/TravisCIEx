@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Restore
           command: dotnet restore
-          working_directory: PublishEx.csproj
+          working_directory: PublishEx
       - run:
           name: Build
           command: dotnet build -c Release
